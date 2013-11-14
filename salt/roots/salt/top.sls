@@ -1,0 +1,6 @@
+base:
+    '*':
+        - general
+    
+    'torqueserver':
+        - pbs

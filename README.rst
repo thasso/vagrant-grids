@@ -13,13 +13,14 @@ Setup
 All machines can be found in their sub-folders within this repository. In each
 folder you will find a ``Vagrantfile`` that contains the vagrant configuration.
 In addition, the provisioning of the boxes is done with `salt
-<http://www.saltstack.com/>`_ and you will need to install the salty-vagrant
-plugin for this to work. Before starting one of the machines, call the
-following command::
+<http://www.saltstack.com/>`_.
+
+If you run **vagrant < 1.3**, you will need to install the salty-vagrant
+plugin for this to work::
 
     $> vagrant plugin install vagrant-salt
 
-Now you can boot up one of the machines, for example::
+You can boot up one of the machines, for example::
 
     $> cd pbs
     $> vagrant up
