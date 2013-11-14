@@ -7,6 +7,7 @@ project where we needed a way to test the system in various grid environments.
 Currently this repository contains setups for:
 
     * PBS/Torque
+    * SGE
 
 Setup
 -----
