@@ -4,3 +4,6 @@ base:
     
     'torqueserver':
         - pbs
+    
+    'sgemaster':
+        - sge
