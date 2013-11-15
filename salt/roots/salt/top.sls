@@ -7,3 +7,6 @@ base:
     
     'sgemaster':
         - sge
+
+    'openlava':
+        - openlava
