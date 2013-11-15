@@ -8,6 +8,7 @@ Currently this repository contains setups for:
 
     * PBS/Torque
     * SGE
+    * Openlava
 
 Setup
 -----
